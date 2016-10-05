@@ -1,7 +1,7 @@
 ---
 applications:
-  - name: grails-openshift
+  - name: grails
     memory: 1G
     instances: 2
-    path: target/grails-openshift-0.1.war
+    path: target/grails1.war
     buildpack: java_buildpack
